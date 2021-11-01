@@ -67,6 +67,7 @@ export default function Contact() {
           netlify
           name="contact"
           onSubmit={handleSubmit}
+          data-netlify-recaptcha="true"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
@@ -112,6 +113,7 @@ export default function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
+          <div data-netlify-recaptcha="true"></div>
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
