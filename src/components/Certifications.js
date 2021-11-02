@@ -9,12 +9,12 @@ export default function ResumeNCertifications() {
     <section id="certifications">
         <div className="container px-5 py-10 mx-auto text-center mt-20">
           <DownloadIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white -mb-20">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white -mb-20 pb-14 sm:pb-0">
             Resume &amp; Certifications
           </h1>
-          <div class="min-w-screen min-h-screen bg-random flex items-center justify-center px-5 -mb-20">
+          <div class="min-w-screen min-h-screen bg-random flex flex-wrap flex-col md:flex-row items-center justify-center px-5 -mb-20 pt-14 sm:pt-0">
             {certifications.map((certification) => (
-              <div class="w- mx-auto rounded-3xl shadow-xl bg-gray-800 mb-10 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:bg-gray-800 hover:scale-110">
+              <div class="w- object-scale-down sm:mx-auto sm:mb-2 -mx-2 rounded-3xl shadow-xl bg-gray-800 mb-10 mt-10 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:bg-gray-800 hover:scale-110">
                 <div class="w-full px-5 pt-8 pb-3">
                   <DocumentTextIcon class="text-8xl text-gray-100 leading-none"/>
                   {/* <div class="rounded-full w-44 h-44 mx-auto border-8 border-gray-300 flex items-center justify-center">

@@ -1,5 +1,5 @@
 import React from "react";
-// import Typewriter from 'typewriter-effect';
+import Typewriter from 'typewriter-effect';
 
 
 
@@ -12,7 +12,7 @@ export default function About() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               Hi, I'm Francisco.
               <br className="hidden lg:inline-block"/>
-              {/* <Typewriter options={{loop:true}} onInit={(typewriter) => {
+              <Typewriter options={{loop:true}} onInit={(typewriter) => {
                 typewriter
                 .typeString('I love to build amazing apps.')
                 .pauseFor(2000)
@@ -21,7 +21,7 @@ export default function About() {
                 .deleteAll()
                 .start()
               }} 
-               /> */}
+               />
             </h1>
             <p className="mb-8 mr-14 w-full leading-relaxed">
               I am a Spanish-Argentine full stack web developer. I am currently completing
