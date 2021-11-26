@@ -8,6 +8,14 @@ export const projects = [
     link: "https://github.com/franalderete7/Videogames",
   },
   {
+    title: "React Foods",
+    subtitle: "PERN Stack",
+    description:
+      "Exploring Spoonacular Database API where I used tools such as React, Redux, CSS, NodeJS, PostgreSQL, Sequalize and Express.",
+    image: "./foods.gif",
+    link: "https://github.com/franalderete7/Foods",
+  },
+  {
     title: "React Todo List",
     subtitle: "PERN Stack",
     description:
