@@ -12,8 +12,8 @@ export default function Projects() {
             Apps & Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            My latest work includes web apps, as well as
-             data science and machine learning projects.
+            My latest work includes web apps, as well as data science and
+            machine learning projects.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -22,7 +22,8 @@ export default function Projects() {
               href={project.link}
               key={project.image}
               target="_blank"
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
