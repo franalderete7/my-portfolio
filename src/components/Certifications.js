@@ -10,7 +10,7 @@ export default function ResumeNCertifications() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white -mb-20 pb-14 sm:pb-0">
           Resume &amp; Certifications
         </h1>
-        <div class="min-w-screen min-h-screen bg-random flex flex-wrap flex-col md:flex-row items-center justify-center px-5 -mb-20 pt-14 sm:pt-0">
+        <div class="min-w-screen min-h-screen bg-random flex flex-wrap flex-col lg:flex-row items-center justify-center px-5 mb-10 mt-20 pt-14 sm:pt-0">
           {certifications.map((certification) => (
             <div class="w-object-scale-down w-52 sm:mx-auto sm:mb-2 -mx-2 rounded-3xl shadow-xl bg-gray-800 mb-10 mt-10 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:bg-gray-800 hover:scale-110">
               <div class="w-full px-5 pt-8 pb-3">
